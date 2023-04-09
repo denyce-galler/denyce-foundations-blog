@@ -1,14 +1,15 @@
 
 h1 {
-  background-color: #d0dceb;
+  background-color: #cdb38b;
   font-size: 50px;
   text-align: center;
-  padding: 50px 30px 30px 30px
+  padding: 50px 30px 50px 30px
   
 }
 
 body {
   font-family: 'Roboto Mono', monospace;
+  text-align: center;
 }
 
 .image {
@@ -18,16 +19,28 @@ body {
   width: 50%
 }
 
+
 .prompt {
-  background-color: rgb(229, 149, 70);
+  background-color:#cdb38b;
   font-size:25px;
   padding:20px 10px 20px 10px;
   border-radius:25px;
   text-align: center;
 }
+
+.title {
+  background-color:#f7e7ce; 
+  font-size:25px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom:50px;
+  border-radius:25px;
+  text-align: center;
+}
+
 .answers {
   font-size: 20px;
-  background-color: #d0dceb;
+  background-color: #fbf7f5;
   margin: 50px 30px 50px 30px;
   padding: 20px 20px 20px 20px;
   border-radius:25px;
@@ -35,7 +48,7 @@ body {
 }
 
 #myDiv {
-  background-color:rgb(229, 149, 70);
+  background-color:#f7e7ce;
   font-size: 25px;
   text-align: center;
   margin: 20px 20px 20px 20px;
@@ -43,13 +56,19 @@ body {
   border-radius:25px;
 }
 
+#homepage {
+  font-size:25px;
+  margin-bottom: 50px 30px 50px 30px;
+}
+
 #links {
   text-align: center;
   font-size: 20px;
-  background-color: #d0dceb;
+  background-color: #cdb38b;
+  color:black;
   margin: 50px 30px 50px 30px;
-  padding: 20px 20px 20px 20px;
-  border-radius:25px;
+  padding: 30px; 
+  border-radius: 25px;
   text-align: center;
 }
 
@@ -67,7 +86,7 @@ ol {
 }
 
 #footer {
-  background-color: #d0dceb;
+  background-color: #cdb38b;
   margin: 50px 0px 20px 0px;
   padding: 20px 20px 20px 20px;
   text-align: center;
@@ -76,7 +95,7 @@ ol {
 
 .introduction {
   font-size: 30px;
-  background-color: #d0dceb;
+  background-color: #cdb38b;
   margin: 50px 30px 50px 30px;
   padding: 20px 20px 20px 20px;
   border-radius:25px;
@@ -106,7 +125,7 @@ a {
     text-align: center;
   }
   h1 {
-    font-size: 70px;
+    font-size: 40px;
     height:auto;
     width:100%; 
     text-align: center;
@@ -126,6 +145,10 @@ a {
   }
 
   .prompt {
+    font-size:15px;
+  }
+
+  #footer {
     font-size:15px;
   }
 
