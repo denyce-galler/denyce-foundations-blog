@@ -125,10 +125,13 @@ a {
     text-align: center;
   }
   h1 {
-    font-size: 40px;
+    font-size: 30px;
     height:auto;
     width:100%; 
     text-align: center;
+  }
+  .title {
+    font-size:20px;
   }
 
   #links {
