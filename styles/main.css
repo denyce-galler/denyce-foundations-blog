@@ -16,7 +16,8 @@ body {
   display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%
+  max-width:80%;
+
 }
 
 
@@ -79,7 +80,7 @@ ol {
 }
 
 .img {
-  max-width: 400px;
+  max-width: 100%;
   height: auto;
   padding-top: 30px;
   
@@ -127,7 +128,6 @@ a {
   h1 {
     font-size: 30px;
     height:auto;
-    width:100%; 
     text-align: center;
   }
   .title {
@@ -159,4 +159,11 @@ a {
     font-size:15px;
   }
 
+  .img {
+    max-width:100%
+  }
+
+  .image {
+    max-width:80%;
+  }
   }
