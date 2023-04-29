@@ -111,6 +111,8 @@ a {
   display:inline;
 }
 
+
+
 @media (max-width: 900px){
   .introduction {
     font-size: 15px;
